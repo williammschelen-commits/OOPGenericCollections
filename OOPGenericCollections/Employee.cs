@@ -17,5 +17,7 @@ namespace OOPGenericCollections
             Gender = gender;
             Salary = salary;
         }
+
+        public void DisplayEmployeeInfo() => Console.WriteLine($"{Id} - {Name} - {Gender} - {Salary}");
     }
 }
