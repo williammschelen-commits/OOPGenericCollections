@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OOPGenericCollections
+﻿namespace OOPGenericCollections
 {
-	internal enum Gender
-	{
-		Male,
-		Female
-	}
+    internal enum Gender
+    {
+        Male,
+        Female
+    }
 }
