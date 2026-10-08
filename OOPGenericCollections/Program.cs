@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string seperationLines = "-----------------------";
+            string separationLines = "-----------------------";
 
             List<Employee> employees = [
                 new Employee("Gustav", Gender.Male, 40000),
@@ -23,7 +23,7 @@
                 DisplayItemsLeftInStack(stack);
             }
 
-            Console.WriteLine(seperationLines);
+            Console.WriteLine(separationLines);
 
             Console.WriteLine("Retrive Using Pop Method");
             while (stack.Count > 0)
@@ -32,7 +32,7 @@
                 DisplayItemsLeftInStack(stack);
             }
 
-            Console.WriteLine(seperationLines);
+            Console.WriteLine(separationLines);
 
             PushEmployeesToStack(employees, stack);
 
@@ -44,7 +44,7 @@
                 DisplayItemsLeftInStack(stack);
             }
 
-            Console.WriteLine(seperationLines);
+            Console.WriteLine(separationLines);
             // employees[2] is the third employee because its zero based
             if (stack.Contains(employees[2]))
             {
